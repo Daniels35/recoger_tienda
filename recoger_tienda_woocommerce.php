@@ -96,7 +96,7 @@ function custom_display_local_pickup_message() {
     if (WC()->session->get('show_local_pickup_message') && !WC()->session->get('local_pickup_message_shown')) {
         echo '<div id="local-pickup-message" style="padding: 15px; background: #f8f9fa; border: 1px solid #ddd; margin-top: 10px;">
             <strong>📍 Recoger en tienda:</strong>
-            <p>Nos pondremos en contacto contigo en los siguientes 5 días hábiles para que recojas tu pedido en nuestro punto de venta presentando tu cédula. Si tienes alguna duda acerca de tu pedido comunícate con nosotros a nuestra línea de <a href="https://wa.me/573228267516" target="_blank">WhatsApp</a>.</p>
+            <p>Si seleccionas "Recoger en tienda", Nos pondremos en contacto contigo en los siguientes 5 días hábiles para que recojas tu pedido en nuestro punto de venta presentando tu cédula. Si tienes alguna duda acerca de tu pedido comunícate con nosotros a nuestra línea de <a href="https://wa.me/573228267516" target="_blank">WhatsApp</a>.</p>
         </div>';
         
         WC()->session->set('local_pickup_message_shown', true);
